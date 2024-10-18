@@ -407,6 +407,7 @@ margin-top: 5%;
     font-weight: 600;
 	margin-left: 10%;
 	color: #4f3527;
+	
 }
 #center { 
 margin-top: 10%;
@@ -446,7 +447,7 @@ margin-top: 8%;
 }
 
 #Service .wrapper .container { 
-	width: 85%;
+
 }
 
 #Service .wrapper .container ul { 
@@ -878,7 +879,7 @@ margin-left: 25%;
 	margin-left: 20%;
 }
 #Service .wrapper .container ul{
-	width: 125%;
+	width: 100%;
 
 
 }
@@ -893,7 +894,7 @@ margin-left: 25%;
 	margin-right: 5%;
 }
 #residences .wrapper .container ul{
-	width: 105%;
+	
 }
 
 #residences .wrapper .container ul li:last-child{
@@ -904,19 +905,67 @@ margin-left: 25%;
 	width: 40%;
 }
 #about .wrapper .container ul{
-	width: 114%;
+
 }
 #about .wrapper .container ul li{
 	margin-right: 50px;
 }
 #about .wrapper .container .item small img{
-	margin-left: 10%;
+	margin-left: 3%;
 	margin-right: 0;
 }
 #accout .wrapper .container .button button{
 	width: 30%;
 }
 }
+@media all and (max-width:1380px){
+
+
+	#spotlight .wrapper .container .right img{
+		width: 600px;
+	}
+	#middle .wrapper .container{
+		width: 100%;
+		padding: 30px;
+		top: -80px;
+	}
+	#residences .wrapper .container ul li .bottom small:nth-child(2n){
+		margin-left: 8%;
+	}
+	#residences .wrapper .container ul li .bottom small{
+		margin-left: 15%;
+	}
+	#testimonial .wrapper .container .right ul li h5 {
+       font-size: 16px;
+
+}
+	
+	#accout .wrapper .container .button button{
+          width: 30%;
+	}
+}
+     @media all and (max-width:1080px){
+		#spotlight .wrapper .container .right img{
+			width: 493px;
+			height:100vh ;
+		}
+		#middle .wrapper .container button{
+			font-size: 12px;
+			
+		}
+		#testimonial .wrapper .container .right ul li h2{
+			margin-left: 12%;
+			font-size:35px ;
+
+		}
+		#testimonial .wrapper .container .right ul li {
+			text-align: center;
+		}
+		#testimonial .wrapper .container .right ul li h5{
+			font-size: 12px;
+		}
+	 }
+
 
 
 
@@ -929,12 +978,15 @@ margin-left: 25%;
 		background: #ddc7bb;
 		font-family: 'montserratsemibold';
 }
+#spotlight .wrapper .container .left h1{
+	margin-top: 10%;
+}
 #home .wrapper header .container .middle .item ul li{
 	display: none;
 }
 #spotlight .wrapper .container .right img {
-	height:100vh;
-	width: 130%;
+	height:80vh;
+	width: 450px;
 }
 #middle .wrapper .container{
 	height: 300px;
@@ -1023,29 +1075,21 @@ footer .wrapper ul li.item {
 	#middle .wrapper .container button.one img{
 		margin-left: 47%;
 	}
-	#testimonial .wrapper .container .left img{
-		opacity: 0.5;
+	#testimonial .wrapper .container {
+		display: block;
 	}
 	#testimonial .wrapper .container .left img {
-		width:150%;
+		/* width:50%; */
+		opacity: 0.5;
 	}
-	#testimonial .wrapper .container .right h1{
-		margin-left: -100%;
-		width: 150%;
-		margin-top: 20%;
+	#testimonial .wrapper .container .right {
+		position: relative;
+		bottom: 380px;
+		left: 140px;
+		text-align: center;
 	}
-	#testimonial .wrapper .container .right p{
-		width: 150%;
-		margin-left: -100%;
-		margin-top: 20%;
-	}
-	#testimonial .wrapper .container .right ul {
-		margin-left: -90%;
-		margin-top: 20%;
-		
-	}
-	#testimonial .wrapper .container .right ul li h2 {
-		margin-right: -50%;
+	#testimonial .wrapper .container .right p br{
+		display: none;
 	}
 	#Service .wrapper .container ul{
 		flex-wrap: wrap;
@@ -1089,6 +1133,10 @@ footer .wrapper ul li.item {
 		
 		
 	}
+	#testimonial{
+		height: 60vh;}
+	
+
 	
 	
 }
@@ -1117,7 +1165,7 @@ footer .wrapper ul li.item {
 		margin-left: 25%;
 	}
 	#testimonial .wrapper .container .left img{
-		width: 160%;
+		width: 100%;
 	}
 	#middle .wrapper .container button{
 		margin-bottom: 2%;
@@ -1131,6 +1179,8 @@ footer .wrapper ul li.item {
 	footer .wrapper ul li{
 		width: 23%;
 	}
+	#testimonial{
+		height: 50vh;}
 }
 @media all and (max-width:480px){
 	#home .wrapper header .container .right .container ul li a img{
@@ -1153,14 +1203,15 @@ footer .wrapper ul li.item {
 	
 }
 #testimonial .wrapper .container .left img{
-	width: 200%;
 }
-#testimonial .wrapper .container .right h1{
-	margin-left: -90%;
+#testimonial .wrapper .container .right ul li h2{
+font-size: 25px;
 }
-#testimonial .wrapper .container .right p{
-	margin-left: -90%;
+#testimonial .wrapper .container .right {
+bottom: 420px;
+left: 100px;
 }
+
 #residences .wrapper .container h1{
 	font-size: 30px;
 }
@@ -1187,6 +1238,7 @@ footer .wrapper ul li{
 	width: 30%;
 }
 }
+
 @media all and (max-width:480px){
 	#home .wrapper header .container .right .container ul li a.button{
 		margin-left: -90%;
@@ -1202,6 +1254,13 @@ footer .wrapper ul li{
 		font-size: 16px;
 		margin-bottom: 30%;
 	}
+	#testimonial{
+		height: 50vh;
+	}
+	#home #spotlight{
+		height: 70vh;
+	}
+
 	#middle .wrapper .container button{
 		width: 100%;
 	}
@@ -1254,12 +1313,29 @@ footer .wrapper ul li{
 		margin-left: -20px;
 	}
 	
-	}
+	
 	#about .wrapper .container{
 		width: 100%;
 	}
+}
 	@media all and (max-width:360px){
 		footer .wrapper ul li:last-child{
+			width: 100%;
+		}
+		#testimonial{
+			height: 70vh;
+		}
+		#testimonial .wrapper .container .right{
+			width: 100%;
+			left: 0px;
+		}
+		#testimonial .wrapper .container .right ul li h5{
+			font-size:10px ;
+		}
+		#home #spotlight{
+			height: 70vh;
+		}
+		#accout .wrapper .container .button button{
 			width: 100%;
 		}
 	}
@@ -1268,6 +1344,13 @@ footer .wrapper ul li{
 		footer .wrapper ul li{
 			width: 100%;
 		}
+		#home #spotlight{
+			height: 70vh;
+		}
+		#testimonial .wrapper .container .right ul li h5{
+			font-size:9px ;
+		}
+
 		#accout .wrapper .container h1{
 			font-size: 25px;
 			line-height: 1.2em;
@@ -1286,6 +1369,9 @@ footer .wrapper ul li{
 		}
 		#middle .wrapper .container button.one img{
 		
+	}
+	#accout .wrapper .container .button button{
+		width: 100%;
 	}
 	}
 
